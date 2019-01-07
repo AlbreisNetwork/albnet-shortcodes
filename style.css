@@ -1,0 +1,211 @@
+.albnet-shortcode-title {
+    padding: 15px 0;
+    margin: 0;
+    font-weight: bold;
+}
+.albnet-shortcode-title:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+}
+div.uk-card-small .uk-card-body, 
+div.uk-card-small.uk-card-body {
+    padding: 20px 0;
+}
+
+.albnet-layout-vertical div.uk-width-2-3 {
+    padding-left: 15px;
+}
+.albnet-layout-vertical .uk-card.uk-card-small{
+    padding-bottom: 17px;
+}
+.albnet-layout-vertical div.uk-card-body {
+    padding: 0;
+}
+.albnet-layout-vertical h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+[class^="uk-width-2-5"] .albnet-layout-slideshow .uk-card-body {
+    padding: 0
+}
+[class^="uk-width-2-5"] .albnet-layout-slideshow .uk-card-title a {
+    font-size: 22px;
+}
+
+.albnet-horizontal div.uk-card-small .uk-card-body, 
+.albnet-horizontal div.uk-card-small.uk-card-body {
+    padding-top: 0
+}
+
+.albnet-layout-default .uk-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.albnet-layout-horizontal .uk-card-title {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    top: -5px;
+    position: relative;
+}
+.albnet-layout-horizontal .uk-card-title a{
+    font-weight: bold;
+}
+.albnet-layout .uk-card-title a:hover,
+.albnet-layout .uk-card-title a:active,
+.albnet-layout .uk-card-title a {
+    color: #000;
+}
+
+.albnet-layout-fotos .uk-card-title a:hover,
+.albnet-layout-fotos .uk-card-title a:active,
+.albnet-layout-fotos .uk-card-title a {
+    color: #000;
+}
+
+.tv-box {
+    padding: 15px;
+    background: #333;
+    color: #fff;
+}
+
+.tv-box .albnet-shortcode-title svg  {
+    width: 50px;
+    position: relative;
+    top: -3px;
+}
+    .tv-box .albnet-shortcode-title {
+    color: #fff;
+}
+
+.tv-box .uk-card-title {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.tv-box .uk-card-title a {
+    color: #fff;
+}
+.has-separator .uk-card {
+    padding-bottom: 0!important
+}
+.uk-card-media-top,
+    .uk-card-media {
+    padding-bottom: 5px;
+}
+*+.uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
+    margin-top: 0!important;
+}
+time svg {
+    position: relative;
+    top: -2px;
+}
+small svg {
+    position: relative;
+    top: -2px;
+}
+.box-bordered {
+    padding: 40px 40px 40px 0!important;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.amazonas-right {
+    height: 55px;
+}
+.albnet-layout-slideshow-amazonas h2.albnet-shortcode-title {
+    font-size: 3rem;
+    margin:0;
+    padding: 0;
+}
+.pim-left .albnet-layout-vertical.albnet-layout-vertical-polo-industrial-de-manaus h3 {
+    font-size: 1.2rem;
+}
+.albnet-layout-slideshow.albnet-layout-slideshow-polo-industrial-de-manaus h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.-box-bordered a.all {
+    margin: -30px;
+    display: block;
+}
+
+
+.albnet-layout-vertical-amazonas h2.albnet-shortcode-title:after {
+    display:none!important;
+}
+.albnet-layout-slideshow-amazonas h2.albnet-shortcode-title:after {
+    display:none!important;
+}
+.albnet-container-amazonas .uk-card-title {
+    font-size: 22px;
+}
+.uk-h1, 
+.uk-card-title.uk-h2, 
+.uk-card-title.uk-h3, 
+.uk-card-title.uk-h4, 
+.uk-card-title.uk-h5, 
+.uk-card-title.uk-h6, 
+h1.uk-card-title , 
+h2.uk-card-title , 
+h3.uk-card-title , 
+h4.uk-card-title , 
+h5.uk-card-title , 
+h6.uk-card-title  {
+    margin: 0
+}
+@media all and (max-width: 980px) {
+.box-bordered {
+border: none;
+padding: 0;
+}
+    header {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #slideshow-noticias  .uk-card-title {
+        font-size: 18px!important;
+        line-height: 18px;
+        font-weight: bold; 
+    }
+
+    [class*=uk-position-bottom], 
+    [class*=uk-position-center], 
+    [class*=uk-position-left], 
+    [class*=uk-position-right], 
+    [class*=uk-position-top] {
+        position: relative!important;
+    }
+    .uk-slideshow-items>:not(.uk-active),
+    .uk-slideshow-items>* {
+        position: relative!important;
+        display: table!important;
+        overflow: visible;
+    }
+    .uk-card .uk-overlay {
+        background: transparent!important;
+        position: relative!important;
+        display: table!important;
+        padding: 5px 0!important
+    }
+    .uk-card-title,
+    .uk-card-title a {
+        color: #222!important;
+    }
+    .uk-card-primary.uk-card-body, 
+    .uk-card-primary>:not([class*=uk-card-media]), 
+    .uk-card-secondary.uk-card-body, 
+    .uk-card-secondary>:not([class*=uk-card-media]) {
+        color: #222!important;
+        background: transparent!important;
+    }
+    .uk-card-body {
+        padding-top: 0!important
+    }
+}
